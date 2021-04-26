@@ -1,0 +1,29 @@
+body {
+background-color: red;
+}
+#btn {
+font-size: 30px;
+width: 125px;
+height: 125px;
+position: relative;
+top: 100px;
+left: 150px;
+margin: 20px;
+background: green;
+box-shadow: 5px 5px;
+border-radius: 12px;
+
+cursor: pointer;
+}
+
+#btn:hover {
+    background-image: url(Nisse.png);
+    background-size: cover;
+}
+
+#btn:active {
+  background-color: #3e8e41;
+  box-shadow: 5px 5px;
+  transform: translateY(4px);
+}
+
